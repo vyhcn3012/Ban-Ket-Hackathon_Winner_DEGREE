@@ -1,0 +1,106 @@
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.left-column {
+	width: 20%;
+	float: left;
+}
+
+.right-column {
+	width: 80%;
+	float: right;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #000;
+	margin-top: 50px;
+}
+
+.form-control .label-control {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #000;
+	padding-left: 50px;
+}
+
+.form-check {
+	display: inline;
+	padding-left: 110px;
+}
+
+.form-check .label {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #000;
+}
+
+input[type='text'] {
+	width: 55%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding-left: 10px;
+}
+
+input[type='radio'] {
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+input[type='date'] {
+	width: 55%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding-left: 10px;
+	font-size: 17px;
+}
+
+.register {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.form-control {
+	padding: 8px;
+}
+
+.button-save {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+.button-cancel {
+	background-color: #000000; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.form-button {
+	margin: 40px;
+	display: flex;
+	justify-content: space-around;
+}

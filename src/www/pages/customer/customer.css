@@ -1,0 +1,93 @@
+.title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.div-center {
+	margin: 8px 0;
+	text-align: center;
+}
+
+.register .btn-submit {
+	margin-top: 20px !important;
+	padding: 8px 16px !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#customers td,
+#customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04aa6d;
+	color: white;
+}
+
+button {
+	padding: 8px 12px;
+	font-weight: 500;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #252525;
+	margin-right: 4px;
+}
+
+.btn-update {
+	color: #f2f2f2;
+	background-color: #348cff;
+	border: 1px solid #1c64c2;
+}
+
+.btn-update:hover {
+	color: #ffffff;
+	background-color: #1c64c2;
+	border: 1px solid #232323;
+}
+
+.btn-delete {
+	color: #f2f2f2;
+	background-color: #fd4242;
+	border: 1px solid #b30e0e;
+}
+
+.btn-delete:hover {
+	color: #ffffff;
+	background-color: #b30e0e;
+	border: 1px solid #232323;
+}
+
+.btn-submit {
+	color: #f2f2f2;
+	background-color: #04aa6d;
+	border: 1px solid #057d51;
+}
+
+.btn-submit:hover {
+	color: #ffffff;
+	background-color: #057d51;
+	border: 1px solid #232323;
+}

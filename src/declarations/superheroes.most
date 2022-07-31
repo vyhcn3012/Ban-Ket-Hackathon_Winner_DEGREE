@@ -1,0 +1,13 @@
+type TokenInfo/1 = TokenInfo;
+type TxRecord/1 = TxRecord;
+type UserInfo/2 = UserInfo/1;
+actor {
+  stable var blackhole : Principal;
+  stable var owner_ : Principal;
+  stable var tokensEntries : [(Nat, TokenInfo/1)];
+  stable var totalOrders_ : Nat;
+  stable var totalSupply_ : Nat;
+  stable var txIndex : Nat;
+  stable var txs : [TxRecord/1];
+  stable var usersEntries : [(Principal, UserInfo/2)]
+};
